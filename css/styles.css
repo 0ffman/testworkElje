@@ -351,3 +351,106 @@ img {
 	font-weight: 400;
 	line-height: 28px;
 }
+/* SERVICES*/
+.services {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.services-list {
+	margin: 0 0 96px 0;
+	padding: 0;
+	list-style: none;
+	font-size: 14px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.services-list .services-item {
+	width: 280px;
+	height: 256px;
+	padding: 66px 10px;
+	font-size: 14px;
+  	font-weight: 700;
+  	letter-spacing: 0.5px;
+  	line-height: 20px;
+  	text-align: center;
+}
+.services-item::before {
+	position: relative;
+	content: '';
+	display: block;
+	width: 124px;
+	height: 124px;
+	margin-left: 68px;
+	margin-bottom: 26px;
+	padding: 42px 34px;
+	border: 2px solid #A8F0DE;
+	border-radius: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.item-stars {
+	background: url(../img/icon_stars.svg) no-repeat center center;
+}
+.item-elevator {
+	background: url(../img/icon_elevator.svg) no-repeat center center;
+}
+.item-showcase {
+	background: url(../img/icon_showcase.svg) no-repeat center center;
+}
+.item-radio {
+	background: url(../img/icon_radio.svg) no-repeat center center;
+}
+.item-banner {
+	background: url(../img/icon_banner.svg) no-repeat center center;
+}
+.item-stairs{
+	background: url(../img/icon_stairs.svg) no-repeat center center;
+}
+.item-facade {
+	background: url(../img/icon_facade.svg) no-repeat center center;
+}
+.item-branding {
+	background: url(../img/icon_branding.svg) no-repeat center center;
+}
+.item-wall {
+	background: url(../img/icon_wall.svg) no-repeat center center;
+}
+.item-food {
+	background: url(../img/icon_food.svg) no-repeat center center;
+}
+.item-ad {
+	background: url(../img/icon_ad.svg) no-repeat center center;
+}
+.item-escalator {
+	background: url(../img/icon_escalator.svg) no-repeat center center;
+}
+.item-column {
+	background: url(../img/icon_column.svg) no-repeat center center;
+}
+.item-stop {
+	background: url(../img/icon_stop.svg) no-repeat center center;
+}
+.item-3d {
+	background: url(../img/icon_3d.svg) no-repeat center center;
+}
+
+.button-send {
+	display: inline-block;
+	padding: 12px 44px;
+	margin-left: 560px;
+	margin-bottom: 120px;
+	color: #3D4252;
+  	font-size: 16px;
+  	font-weight: 400;
+  	letter-spacing: 1.5px;
+  	line-height: 24px;
+  	text-align: center;
+  	border: 4px solid #A8F0DE;
+  	border-radius: 28px;
+}
+
+	
+
