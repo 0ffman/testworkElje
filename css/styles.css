@@ -1,0 +1,20 @@
+@font-face {
+  font-weight: 700;
+  font-family: "Navigo";
+
+  src: url("../fonts/Navigo-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Navigo";
+
+  src: url("../fonts/Navigo-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "Navigo";
+
+  src: url("../fonts/Navigo-Light.ttf") format("ttf");
+}
