@@ -127,6 +127,13 @@ img {
 	border-radius: 100%;
 }
 
+.header-top-lang a:hover {
+	background-color: #3D4252;
+	color: #fff;
+	border-radius: 100%;
+	transition: 0.5s ease-in-out;
+}
+
 .header-top-lang abbr {
 	text-decoration: none;
 }
@@ -156,7 +163,9 @@ img {
 
 .header-top-timework a {
 	display: block;
+	width: 91px;
 	color: #3D4252;
+	border-bottom: 1px solid rgba(61, 66, 82, 0.35);
 }
 
 .header-top-logo {
@@ -233,6 +242,11 @@ img {
 	line-height: 18px;
 }
 
+.bottom-nav-list a:hover {
+	color: #A8F0DE;
+	transition: 0.5s ease;
+}
+
 .button-search {
 	display: block;
 	width: 36px;
@@ -245,6 +259,11 @@ img {
 	background-position: center center;
 }
 
+.button-search:hover {
+	background-color: #fff;
+	transition: 0.5s ease;
+}
+
 .bottom-nav-list .button-map {
 	display: block;
 	padding: 6px 18px 7px 18px;	
@@ -252,6 +271,13 @@ img {
 	border-radius: 17px;
   	font-size: 13px;
   	line-height: 16px;
+}
+
+.bottom-nav-list .button-map:hover,
+.bottom-nav-list .button-interface:hover {
+	background-color: #fff;
+	color: #3D4252;
+	transition: 0.5s ease-in-out;
 }
 
 .bottom-nav-list li {
