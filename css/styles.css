@@ -513,10 +513,11 @@ img {
 }
 
 .button-send {
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  width: 283px;
   padding: 12px 44px;
-  margin-left: 560px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 120px;
   color: #3D4252;
   font-size: 16px;
