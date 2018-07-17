@@ -263,7 +263,8 @@ img {
   line-height: 18px;
 }
 
-.bottom-nav-list a:hover {
+.bottom-nav-list a:hover,
+.footer-nav-list a:hover {
   color: #A8F0DE;
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
@@ -299,7 +300,8 @@ img {
 }
 
 .bottom-nav-list .button-map:hover,
-.bottom-nav-list .button-interface:hover {
+.bottom-nav-list .button-interface:hover,
+.feedback-link:hover {
   background-color: #fff;
   color: #3D4252;
   -webkit-transition: 0.5s ease-in-out;
@@ -531,6 +533,7 @@ img {
   background-color: #3D4252;
   transition: 0.5s ease-in-out;
 }
+
 
 /* FOOTER*/
 
