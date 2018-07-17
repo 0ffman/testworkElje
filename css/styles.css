@@ -63,14 +63,14 @@ img {
   top: -9999px;
 }
 
-.wrapper {
+/*.wrapper {
   display: flex;
   flex-direction: column;
   width: 1600px;
   margin: 0 auto;
   color: #3D4252;
   background-color: #ffffff;
-}
+}*/
 
 
 /* HEADER */
@@ -309,7 +309,8 @@ img {
 }
 
 .banner-heading {
-	margin: 0;
+	max-width: 1400px;
+	margin: 0 auto;
 	padding: 116px 0 0 0;
 	color: #ffffff;
 	font-size: 32px;
@@ -457,11 +458,22 @@ img {
 	background-color: #3D4252;
 }
 .footer-container {
+	position: relative;
 	padding: 65px 0 32px 0;
 	width: 1400px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.footer-container::before {
+	position: absolute;
+	content: '';
+	top: 32px;
+	left: 0;
+  	width: 1400px;
+  	height: 1px;
+  	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-contacts {
@@ -545,6 +557,7 @@ img {
 	font: inherit;
 	margin-top: 4px;
 	padding-left: 16px;
+	padding-right: 45px;
 	color: #fff;
 	background-color: transparent;
 	border: 2px solid #656C81;
