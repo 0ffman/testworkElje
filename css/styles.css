@@ -88,14 +88,11 @@ img {
 .header-top::after {
 	content: '';
 	position: absolute;
-	width: 40px;
-	height: 7px;
 	left: 50%;
-	bottom: -7px;
+	bottom: -27px;
 	transform: translateX(-50%);
-	background-image: url(../img/triangle.svg);
-	background-repeat: no-repeat;
-	background-color: transparent;
+	border: 20px solid transparent;
+	border-top: 7px solid #ffffff;
 }
 
 .header-top-lang,
