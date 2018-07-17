@@ -11,7 +11,7 @@
   <body>
     <div class="wrapper">
       <header class="main-header">
-        <div class="header-top">
+        <div class="header-top container">
           <ul class="header-top-lang">
             <li><a class="active" href="#"><abbr title="Русский">РУС</abbr></a></li>
             <li><a href="#"><abbr title="English">ENG</abbr></a></li>
@@ -31,7 +31,7 @@
           </ul>
         </div>
         <div class="header-bottom">
-          <nav class="bottom-nav">
+          <nav class="bottom-nav container">
             <ul class="bottom-nav-list">
               <li><a class="button-search" href="#"><span class="visually-hidden">Поиск</span></a></li>
               <li><a class="button-map" href="#">Карта</a></li>
@@ -63,7 +63,7 @@
             <p class="description-text">Благодаря ритейл-зонам в торговом центре, разделённым 4 этажами, реклама в ТЦ становится уникальным способом донести ваше рекламное сообщение до ЦА. В торговом центре есть различные рекламные возможности для продвижения нового товара или бренда, увеличения базы данных и повышения лояльности к бренду.</p>
           </div>
         </section>
-        <section class="services">
+        <section class="services container">
           <h2 class="visually-hidden">Наши услуги</h2>
           <ul class="services-list">
             <li class="services-item item-stars">
@@ -116,7 +116,7 @@
         </section>
       </main>
       <footer class="main-footer">
-        <div class="footer-container">
+        <div class="footer-container container">
           <div class="footer-contacts">
             <p class="footer-contacts-logo">АВИАПАРК</p>
             <p class="footer-contacts-text">Наш адрес: г. Москва, ул. Ходынский бульвар, д.4<br>
@@ -135,10 +135,13 @@
           </div>
           <div class="footer-news">
             <form class="news-form" action="123">
-              <label for="news">Получать новости</label><br>
-              <input type="text" id="news" placeholder="e-mail" name="news">
+              <b>Получать новости</b>
+              <div class="news-form-field">
+                <label class="visually-hidden" for="news">E-mail</label>
+                <input type="text" id="news" placeholder="e-mail" name="news">
+                <button class="footer-btn-send">Отправить</button>
+              </div>
             </form>
-            <button class="footer-btn-send">Отправить</button>
           </div>
           <ul class="footer-nav-list">
             <li><a href="#">АРЕНДАТОРАМ</a></li>
